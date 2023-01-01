@@ -1,5 +1,5 @@
 #!/bin/bash -p
 
 make all || exit 1
- ./signal
+env LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib64 ./signal
 

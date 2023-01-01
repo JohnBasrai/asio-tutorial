@@ -31,3 +31,16 @@
 *.out
 *.app
 *~
+
+signals/signal
+daytime-iostreams/client
+daytime-iostreams/server
+daytime-tcp/client
+daytime-tcp/server-async
+daytime-tcp/server-sync
+daytime-udp/client
+daytime-udp/server-async
+daytime-udp/server-sync
+dummy-work/dummy-work
+read-udp/read-udp
+timers/bin/
