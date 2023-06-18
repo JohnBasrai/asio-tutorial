@@ -44,3 +44,10 @@ daytime-udp/server-sync
 dummy-work/dummy-work
 read-udp/read-udp
 timers/bin/
+
+CMakeCache.txt
+CMakeFiles/
+bin/
+build/
+Makefile
+cmake_install.cmake

@@ -1,9 +1,0 @@
-#!/bin/bash -p
-
-make all || exit 1
-
-(sudo ./server)&
-sleep 5
- ./client
- ./client
-
