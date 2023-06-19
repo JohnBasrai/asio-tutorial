@@ -1,5 +1,0 @@
-#!/bin/bash -p
-
-make all || exit 1
-
-$*
