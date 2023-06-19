@@ -33,5 +33,5 @@ jobs:
       run: cd ${{github.workspace}}/build && cmake ..
 
     - name: Building
-      run: cd ${{github.workspace}}/build && make
+      run: cd ${{github.workspace}}/build && make -j4
 
