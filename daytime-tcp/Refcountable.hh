@@ -12,7 +12,7 @@ namespace util
     using atomic_type = std::atomic_int64_t;
     static inline int64_t AtomicAdd(volatile atomic_type* counter, const int32_t toAdd)
     {
-        const auto oldValue = counter->fetch_add(toAdd);
+        const auto oldValue = counter->fetch_add(toAdd, std::memory_order_relaxed);
 
         // Returns new value (after adding value).
         return oldValue + toAdd;
